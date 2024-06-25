@@ -1,0 +1,28 @@
+#contenedor-1 {
+  background-color: black;
+  padding: 50px;
+}
+
+#contenedor-2 {
+  background-color: red;
+  padding: 15px;
+}
+
+#contenedor-3 {
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+#contenedor-4 {
+  background-color: gray;
+  padding: 10px;
+}
+
+ul {
+padding-left: 25px;
+padding-top: 25px;
+}
+
+li {
+  padding-bottom: 30px;
+}

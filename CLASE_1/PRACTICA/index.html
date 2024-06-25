@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+    <link rel="stylesheet" href="style.css" id="defaultStyle">
+    <link rel="alternate stylesheet" href="high-contrast.css" id="highContrastStyle" disabled>
+</head>
+<body>
+    <button id="toggleContrast">Cambiar a Alto Contraste</button>
+    <form id="personalDataForm">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="dob">Fecha de Nacimiento:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="pais">País de Residencia:</label>
+            <input type="text" id="pais" name="pais" required><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* estilo_dos.css */
+img {
+  width: 100%;
+  height: 100px;
+}
+
+nav {
+  background-color: midnightblue;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+#contenedor {
+  display: flex;
+  padding: auto;
+}
+
+section {
+  flex-grow: 1;
+  background-color: beige;
+  padding: 150px;
+}
+
+aside {
+  flex-grow: 4;
+  background-color: red;
+  color: aliceblue;
+  padding: 150px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
