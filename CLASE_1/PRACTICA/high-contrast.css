@@ -1,28 +1,27 @@
-/* high-contrast.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #000; /* Texto en negro */
+    background-color: #000;
+    color: #fff;
 }
 
 button {
     padding: 10px 20px;
     margin: 20px;
     border: none;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffcc00;
+    color: #000;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #e6b800;
 }
 
 form {
-    background-color: white;
+    background-color: #333;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 fieldset {
@@ -44,18 +43,20 @@ input[type="text"], input[type="email"], input[type="date"] {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     border-radius: 3px;
+    background-color: #000;
+    color: #fff;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffcc00;
+    color: #000;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #e6b800;
 }
