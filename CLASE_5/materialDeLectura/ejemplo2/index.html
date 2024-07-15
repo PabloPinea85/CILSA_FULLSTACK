@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio - Proyecto de Fantasía</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos para modo de alto contraste */
+        body.contrast {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Bienvenido al Proyecto de Fantasía</h1>
+        <p>Un lugar mágico donde tus sueños se hacen realidad.</p>
+        <a href="inicio.html" class="btn btn-primary mr-2">Inicio</a>
+        <a href="registro.html" class="btn btn-secondary">Registro</a>
+        <hr>
+        <button class="btn btn-outline-light" onclick="toggleContrast()">Modo Alto Contraste</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function toggleContrast() {
+            document.body.classList.toggle('contrast');
+        }
+    </script>
+</body>
+</html>

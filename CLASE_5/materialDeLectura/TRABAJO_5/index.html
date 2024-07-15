@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" id="defaultStyle">
+    <link rel="alternate stylesheet" href="high-contrast.css" id="highContrastStyle" disabled>
+</head>
+<body>
+    <div class="container mt-5">
+        <button id="toggleContrast" class="btn btn-secondary mb-3">Cambiar a Alto Contraste</button>
+        <form id="personalDataForm" class="needs-validation" novalidate>
+            <fieldset class="border p-4">
+                <legend class="w-auto">Datos Personales</legend>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese su nombre.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese su apellido.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese un correo electrónico válido.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Fecha de Nacimiento:</label>
+                    <input type="date" class="form-control" id="dob" name="dob" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese su fecha de nacimiento.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pais">País de Residencia:</label>
+                    <input type="text" class="form-control" id="pais" name="pais" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese su país de residencia.
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
