@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, sans-serif;
+}
+
+.form-control {
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+}
+
+.btn-primary {
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+}
