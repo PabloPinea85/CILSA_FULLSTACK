@@ -1,0 +1,182 @@
+[
+    {
+      "id": "1",
+      "categoria": "Mountain",
+      "imagen": "https://ibb.co/DbwqxXQ",
+      "precio": "$500",
+      "biciicleta": "Acme X100",
+      "marca": "Acme Bikes",
+      "descripcion general": "A great bike for off-road adventures"
+    },
+    {
+      "id": "2",
+      "categoria": "Road",
+      "imagen": "https://ibb.co/37w3WRw",
+      "precio": "$800",
+      "biciicleta": "Speedy5000",
+      "marca": "Speedy Cycles",
+      "descripcion general": "An aerodynamic bike built for speed"
+    },
+    {
+      "id": "3",
+      "categoria": "City",
+      "imagen": "https://ibb.co/5FfPsPJ",
+      "precio": "$350",
+      "biciicleta": "UrbanCruiser",
+      "marca": "City Bikes Co.",
+      "descripcion general": "A comfortable bike for urban commuting"
+    },
+    {
+      "id": "4",
+      "categoria": "BMX",
+      "imagen": "https://ibb.co/1QG4cCj",
+      "precio": "$250",
+      "biciicleta": "RadRider",
+      "marca": "Rad Bikes",
+      "descripcion general": "A rugged bike for tricks and stunts"
+    },
+    {
+      "id": "5",
+      "categoria": "Mountain",
+      "imagen": "https://ibb.co/CmW1jBY",
+      "precio": "$600",
+      "biciicleta": "TrailblazerX",
+      "marca": "Mountain Master",
+      "descripcion general": "A high-performance bike for rough terrains"
+    },
+    {
+      "id": "6",
+      "categoria": "Road",
+      "imagen": "https://ibb.co/2kMfSsT",
+      "precio": "$900",
+      "biciicleta": "AeroChampion",
+      "marca": "Aero Bikes",
+      "descripcion general": "A lightweight bike designed for racing"
+    },
+    {
+      "id": "7",
+      "categoria": "City",
+      "imagen": "https://ibb.co/NZhjXyx",
+      "precio": "$370",
+      "biciicleta": "MetroGlide",
+      "marca": "Glide Cycles",
+      "descripcion general": "A stylish bike for everyday city rides"
+    },
+    {
+      "id": "8",
+      "categoria": "BMX",
+      "imagen": "https://ibb.co/4THxKzH",
+      "precio": "$270",
+      "biciicleta": "XtremeJumper",
+      "marca": "Xtreme Bikes",
+      "descripcion general": "A trick bike built for extreme stunts"
+    },
+    {
+      "id": "9",
+      "categoria": "Mountain",
+      "imagen": "https://ibb.co/yf8mhd5",
+      "precio": "$550",
+      "biciicleta": "WildRider",
+      "marca": "Wilderness Bikes",
+      "descripcion general": "A durable bike for challenging mountain trails"
+    },
+    {
+      "id": "10",
+      "categoria": "Road",
+      "imagen": "https://ibb.co/wQ8Dysd",
+      "precio": "$850",
+      "biciicleta": "LightningLuxe",
+      "marca": "Luxe Cycles",
+      "descripcion general": "A premium bike with advanced components for speed"
+    },
+    {
+      "id": "11",
+      "categoria": "City",
+      "imagen": "https://ibb.co/MSFBNMS",
+      "precio": "$380",
+      "biciicleta": "EcoCommuter",
+      "marca": "Eco Bikes Inc.",
+      "descripcion general": "An eco-friendly bike for urban transportation"
+    },
+    {
+      "id": "12",
+      "categoria": "BMX",
+      "imagen": "https://ibb.co/7S5GM3G",
+      "precio": "$280",
+      "biciicleta": "SavageGrip",
+      "marca": "Savage Bikes",
+      "descripcion general": "A rugged bike built to withstand intense tricks"
+    },
+    {
+      "id": "13",
+      "categoria": "Mountain",
+      "imagen": "https://ibb.co/nz7pHSy",
+      "precio": "$520",
+      "biciicleta": "AllTerrainPro",
+      "marca": "Pro Bikes",
+      "descripcion general": "A professional-grade bike for all types of terrain"
+    },
+    {
+      "id": "14",
+      "categoria": "Road",
+      "imagen": "https://ibb.co/V3ss5gw",
+      "precio": "$820",
+      "biciicleta": "CarbonRacer",
+      "marca": "Carbon Cycles",
+      "descripcion general": "A carbon-fiber bike designed for ultimate performance"
+    },
+    {
+      "id": "15",
+      "categoria": "City",
+      "imagen": "https://ibb.co/SKZ1wCX",
+      "precio": "$360",
+      "biciicleta": "RetroCruiser",
+      "marca": "Retro Bikes Ltd.",
+      "descripcion general": "A vintage-style bike for stylish city rides"
+    },
+    {
+      "id": "16",
+      "categoria": "BMX",
+      "imagen": "https://ibb.co/Zx7vh3r",
+      "precio": "$260",
+      "biciicleta": "FreestylePro",
+      "marca": "Freestyle Bikes",
+      "descripcion general": "A professional freestyle bike for advanced riders"
+    },
+    {
+      "id": "17",
+      "categoria": "Mountain",
+      "imagen": "https://ibb.co/5cdDknV",
+      "precio": "$580",
+      "biciicleta": "GravityFury",
+      "marca": "Gravity Bikes",
+      "descripcion general": "A gravity-assist bike for downhill mountain biking"
+    },
+    {
+      "id": "18",
+      "categoria": "Road",
+      "imagen": "https://ibb.co/R0fD2r9",
+      "precio": "$880",
+      "biciicleta": "UltraLight",
+      "marca": "Ultra Bikes",
+      "descripcion general": "An ultra-lightweight bike for road racing"
+    },
+    {
+      "id": "19",
+      "categoria": "City",
+      "imagen": "https://ibb.co/PF3YNfg",
+      "precio": "$390",
+      "biciicleta": "FoldingCommuter",
+      "marca": "Fold Bikes",
+      "descripcion general": "A folding bike for convenient urban commuting"
+    },
+    {
+      "id": "20",
+      "categoria": "BMX",
+      "imagen": "https://ibb.co/TkQzQ3d",
+      "precio": "$290",
+      "biciicleta": "MiniShredder",
+      "marca": "Mini Bikes",
+      "descripcion general": "A mini BMX bike for young riders"
+    }
+  ]
