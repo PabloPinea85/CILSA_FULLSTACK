@@ -22,12 +22,12 @@ fetch("./data/bike.json")
     const selecionarCategoria = event.target.value;
     filtrarPorCategoria(selecionarCategoria);
   });
-  
+
   function mostrarBikes(bikes) {
   contenedor.innerHTML = "";
   bikes.forEach((bike) => {
     const cardHTML = `
-    <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
           <div class="card h-100">
             <img src="${bike.imagen}" class="card-img-top" alt="${bike.biciicleta}" />
             <div class="card-body">
