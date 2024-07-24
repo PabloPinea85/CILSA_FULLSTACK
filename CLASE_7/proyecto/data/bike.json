@@ -2,7 +2,7 @@
     {
       "id": "1",
       "categoria": "Mountain",
-      "imagen": "https://ibb.co/DbwqxXQ",
+      "imagen": "https://i.ibb.co/hM2qP5V/Mountain.png",
       "precio": "$500",
       "biciicleta": "Acme X100",
       "marca": "Acme Bikes",
@@ -11,7 +11,7 @@
     {
       "id": "2",
       "categoria": "Road",
-      "imagen": "https://ibb.co/37w3WRw",
+      "imagen": "https://i.ibb.co/FK9rJH9/Road.png",
       "precio": "$800",
       "biciicleta": "Speedy5000",
       "marca": "Speedy Cycles",
@@ -20,7 +20,7 @@
     {
       "id": "3",
       "categoria": "City",
-      "imagen": "https://ibb.co/5FfPsPJ",
+      "imagen": "https://i.ibb.co/X8vqFqG/City.png",
       "precio": "$350",
       "biciicleta": "UrbanCruiser",
       "marca": "City Bikes Co.",
@@ -29,7 +29,7 @@
     {
       "id": "4",
       "categoria": "BMX",
-      "imagen": "https://ibb.co/1QG4cCj",
+      "imagen": "https://i.ibb.co/SywZSkG/BMX.png",
       "precio": "$250",
       "biciicleta": "RadRider",
       "marca": "Rad Bikes",
@@ -38,7 +38,7 @@
     {
       "id": "5",
       "categoria": "Mountain",
-      "imagen": "https://ibb.co/CmW1jBY",
+      "imagen": "https://i.ibb.co/k5MHLKw/Mountain1.png",
       "precio": "$600",
       "biciicleta": "TrailblazerX",
       "marca": "Mountain Master",
@@ -47,7 +47,7 @@
     {
       "id": "6",
       "categoria": "Road",
-      "imagen": "https://ibb.co/2kMfSsT",
+      "imagen": "https://i.ibb.co/cr87wCj/Road1.png",
       "precio": "$900",
       "biciicleta": "AeroChampion",
       "marca": "Aero Bikes",
@@ -56,7 +56,7 @@
     {
       "id": "7",
       "categoria": "City",
-      "imagen": "https://ibb.co/NZhjXyx",
+      "imagen": "https://i.ibb.co/J5L7Nsn/City1.png",
       "precio": "$370",
       "biciicleta": "MetroGlide",
       "marca": "Glide Cycles",
@@ -65,7 +65,7 @@
     {
       "id": "8",
       "categoria": "BMX",
-      "imagen": "https://ibb.co/4THxKzH",
+      "imagen": "https://i.ibb.co/KqJHbdJ/BMX1.png",
       "precio": "$270",
       "biciicleta": "XtremeJumper",
       "marca": "Xtreme Bikes",
@@ -74,7 +74,7 @@
     {
       "id": "9",
       "categoria": "Mountain",
-      "imagen": "https://ibb.co/yf8mhd5",
+      "imagen": "https://i.ibb.co/6n4cvrb/Mountain2.png",
       "precio": "$550",
       "biciicleta": "WildRider",
       "marca": "Wilderness Bikes",
@@ -83,7 +83,7 @@
     {
       "id": "10",
       "categoria": "Road",
-      "imagen": "https://ibb.co/wQ8Dysd",
+      "imagen": "https://i.ibb.co/94BRntp/Road2.png",
       "precio": "$850",
       "biciicleta": "LightningLuxe",
       "marca": "Luxe Cycles",
@@ -92,7 +92,7 @@
     {
       "id": "11",
       "categoria": "City",
-      "imagen": "https://ibb.co/MSFBNMS",
+      "imagen": "https://i.ibb.co/NCcTYZC/City2.png",
       "precio": "$380",
       "biciicleta": "EcoCommuter",
       "marca": "Eco Bikes Inc.",
@@ -101,7 +101,7 @@
     {
       "id": "12",
       "categoria": "BMX",
-      "imagen": "https://ibb.co/7S5GM3G",
+      "imagen": "https://i.ibb.co/TwSHjQH/BMX2.png",
       "precio": "$280",
       "biciicleta": "SavageGrip",
       "marca": "Savage Bikes",
@@ -110,7 +110,7 @@
     {
       "id": "13",
       "categoria": "Mountain",
-      "imagen": "https://ibb.co/nz7pHSy",
+      "imagen": "https://i.ibb.co/dGPZdyv/Mountain3.png",
       "precio": "$520",
       "biciicleta": "AllTerrainPro",
       "marca": "Pro Bikes",
@@ -119,7 +119,7 @@
     {
       "id": "14",
       "categoria": "Road",
-      "imagen": "https://ibb.co/V3ss5gw",
+      "imagen": "https://i.ibb.co/XVqqM7Y/Road3.png",
       "precio": "$820",
       "biciicleta": "CarbonRacer",
       "marca": "Carbon Cycles",
@@ -128,7 +128,7 @@
     {
       "id": "15",
       "categoria": "City",
-      "imagen": "https://ibb.co/SKZ1wCX",
+      "imagen": "https://i.ibb.co/ZhbwzD6/City3.png",
       "precio": "$360",
       "biciicleta": "RetroCruiser",
       "marca": "Retro Bikes Ltd.",
@@ -137,7 +137,7 @@
     {
       "id": "16",
       "categoria": "BMX",
-      "imagen": "https://ibb.co/Zx7vh3r",
+      "imagen": "https://i.ibb.co/7KLBGHD/BMX3.png",
       "precio": "$260",
       "biciicleta": "FreestylePro",
       "marca": "Freestyle Bikes",
@@ -146,7 +146,7 @@
     {
       "id": "17",
       "categoria": "Mountain",
-      "imagen": "https://ibb.co/5cdDknV",
+      "imagen": "https://i.ibb.co/x5yvYfQ/Mountain4.png",
       "precio": "$580",
       "biciicleta": "GravityFury",
       "marca": "Gravity Bikes",
@@ -155,7 +155,7 @@
     {
       "id": "18",
       "categoria": "Road",
-      "imagen": "https://ibb.co/R0fD2r9",
+      "imagen": "https://i.ibb.co/gTNRyq3/Road4.png",
       "precio": "$880",
       "biciicleta": "UltraLight",
       "marca": "Ultra Bikes",
@@ -164,7 +164,7 @@
     {
       "id": "19",
       "categoria": "City",
-      "imagen": "https://ibb.co/PF3YNfg",
+      "imagen": "https://i.ibb.co/dj1crzD/City4.png",
       "precio": "$390",
       "biciicleta": "FoldingCommuter",
       "marca": "Fold Bikes",
@@ -173,7 +173,7 @@
     {
       "id": "20",
       "categoria": "BMX",
-      "imagen": "https://ibb.co/TkQzQ3d",
+      "imagen": "https://i.ibb.co/DtB3B2T/BMX4.png",
       "precio": "$290",
       "biciicleta": "MiniShredder",
       "marca": "Mini Bikes",
