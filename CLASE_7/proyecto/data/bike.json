@@ -6,7 +6,7 @@
       "precio": "$500",
       "biciicleta": "Acme X100",
       "marca": "Acme Bikes",
-      "descripcion general": "A great bike for off-road adventures"
+      "descripciongeneral": "A great bike for off-road adventures"
     },
     {
       "id": "2",
@@ -15,7 +15,7 @@
       "precio": "$800",
       "biciicleta": "Speedy5000",
       "marca": "Speedy Cycles",
-      "descripcion general": "An aerodynamic bike built for speed"
+      "descripciongeneral": "An aerodynamic bike built for speed"
     },
     {
       "id": "3",
@@ -24,7 +24,7 @@
       "precio": "$350",
       "biciicleta": "UrbanCruiser",
       "marca": "City Bikes Co.",
-      "descripcion general": "A comfortable bike for urban commuting"
+      "descripciongeneral": "A comfortable bike for urban commuting"
     },
     {
       "id": "4",
@@ -33,7 +33,7 @@
       "precio": "$250",
       "biciicleta": "RadRider",
       "marca": "Rad Bikes",
-      "descripcion general": "A rugged bike for tricks and stunts"
+      "descripciongeneral": "A rugged bike for tricks and stunts"
     },
     {
       "id": "5",
@@ -42,7 +42,7 @@
       "precio": "$600",
       "biciicleta": "TrailblazerX",
       "marca": "Mountain Master",
-      "descripcion general": "A high-performance bike for rough terrains"
+      "descripciongeneral": "A high-performance bike for rough terrains"
     },
     {
       "id": "6",
@@ -51,7 +51,7 @@
       "precio": "$900",
       "biciicleta": "AeroChampion",
       "marca": "Aero Bikes",
-      "descripcion general": "A lightweight bike designed for racing"
+      "descripciongeneral": "A lightweight bike designed for racing"
     },
     {
       "id": "7",
@@ -60,7 +60,7 @@
       "precio": "$370",
       "biciicleta": "MetroGlide",
       "marca": "Glide Cycles",
-      "descripcion general": "A stylish bike for everyday city rides"
+      "descripciongeneral": "A stylish bike for everyday city rides"
     },
     {
       "id": "8",
@@ -69,7 +69,7 @@
       "precio": "$270",
       "biciicleta": "XtremeJumper",
       "marca": "Xtreme Bikes",
-      "descripcion general": "A trick bike built for extreme stunts"
+      "descripciongeneral": "A trick bike built for extreme stunts"
     },
     {
       "id": "9",
@@ -78,7 +78,7 @@
       "precio": "$550",
       "biciicleta": "WildRider",
       "marca": "Wilderness Bikes",
-      "descripcion general": "A durable bike for challenging mountain trails"
+      "descripciongeneral": "A durable bike for challenging mountain trails"
     },
     {
       "id": "10",
@@ -87,7 +87,7 @@
       "precio": "$850",
       "biciicleta": "LightningLuxe",
       "marca": "Luxe Cycles",
-      "descripcion general": "A premium bike with advanced components for speed"
+      "descripciongeneral": "A premium bike with advanced components for speed"
     },
     {
       "id": "11",
@@ -96,7 +96,7 @@
       "precio": "$380",
       "biciicleta": "EcoCommuter",
       "marca": "Eco Bikes Inc.",
-      "descripcion general": "An eco-friendly bike for urban transportation"
+      "descripciongeneral": "An eco-friendly bike for urban transportation"
     },
     {
       "id": "12",
@@ -105,7 +105,7 @@
       "precio": "$280",
       "biciicleta": "SavageGrip",
       "marca": "Savage Bikes",
-      "descripcion general": "A rugged bike built to withstand intense tricks"
+      "descripciongeneral": "A rugged bike built to withstand intense tricks"
     },
     {
       "id": "13",
@@ -114,7 +114,7 @@
       "precio": "$520",
       "biciicleta": "AllTerrainPro",
       "marca": "Pro Bikes",
-      "descripcion general": "A professional-grade bike for all types of terrain"
+      "descripciongeneral": "A professional-grade bike for all types of terrain"
     },
     {
       "id": "14",
@@ -123,7 +123,7 @@
       "precio": "$820",
       "biciicleta": "CarbonRacer",
       "marca": "Carbon Cycles",
-      "descripcion general": "A carbon-fiber bike designed for ultimate performance"
+      "descripciongeneral": "A carbon-fiber bike designed for ultimate performance"
     },
     {
       "id": "15",
@@ -132,7 +132,7 @@
       "precio": "$360",
       "biciicleta": "RetroCruiser",
       "marca": "Retro Bikes Ltd.",
-      "descripcion general": "A vintage-style bike for stylish city rides"
+      "descripciongeneral": "A vintage-style bike for stylish city rides"
     },
     {
       "id": "16",
@@ -141,7 +141,7 @@
       "precio": "$260",
       "biciicleta": "FreestylePro",
       "marca": "Freestyle Bikes",
-      "descripcion general": "A professional freestyle bike for advanced riders"
+      "descripciongeneral": "A professional freestyle bike for advanced riders"
     },
     {
       "id": "17",
@@ -150,7 +150,7 @@
       "precio": "$580",
       "biciicleta": "GravityFury",
       "marca": "Gravity Bikes",
-      "descripcion general": "A gravity-assist bike for downhill mountain biking"
+      "descripciongeneral": "A gravity-assist bike for downhill mountain biking"
     },
     {
       "id": "18",
@@ -159,7 +159,7 @@
       "precio": "$880",
       "biciicleta": "UltraLight",
       "marca": "Ultra Bikes",
-      "descripcion general": "An ultra-lightweight bike for road racing"
+      "descripciongeneral": "An ultra-lightweight bike for road racing"
     },
     {
       "id": "19",
@@ -168,7 +168,7 @@
       "precio": "$390",
       "biciicleta": "FoldingCommuter",
       "marca": "Fold Bikes",
-      "descripcion general": "A folding bike for convenient urban commuting"
+      "descripciongeneral": "A folding bike for convenient urban commuting"
     },
     {
       "id": "20",
@@ -177,6 +177,6 @@
       "precio": "$290",
       "biciicleta": "MiniShredder",
       "marca": "Mini Bikes",
-      "descripcion general": "A mini BMX bike for young riders"
+      "descripciongeneral": "A mini BMX bike for young riders"
     }
   ]
