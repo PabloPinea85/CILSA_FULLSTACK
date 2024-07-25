@@ -1,0 +1,202 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/rolon/Desktop/carpeta trabajo integrador/CILSA_FULLSTACK/CLASE_7/proyecto/productos.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 5/formboost/index-formboost.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 6/pagina con boostrap/index_perfilboostrap.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/Estilo uno/index_uno.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/Estilo uno/Estilo_uno.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/Estilo tres/Estilo_tres.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/Estilo tres/index_tres.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/form_altocontraste/style_altocontraste.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/form_altocontraste/index_altocontraste.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/formulario/style.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 1/formulario/index.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/tareas/semana 6/pagina con boostrap/index-formboost.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/Estilo dos/Estilo_dos.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/Estilo dos/index_dos.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/Estilo uno/Estilo_uno.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/Estilo tres/Estilo_tres.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/form_altocontraste/style_altocontraste.css",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/form_altocontraste/index_altocontraste.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/formulario/index.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/Estilo uno/index_uno.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/Estilo tres/index_tres.html",
+		"/C/Users/rolon/Desktop/cursos y otros/beca cilsa/full stack/HTML-CSS/formulario/style.css",
+		"/C/Users/rolon/Desktop/formulario/index.html",
+		"/C/Users/rolon/Desktop/formulario/formulario.html",
+		"/C/Users/rolon/Desktop/curso basico/index.html",
+		"/C/Users/rolon/Desktop/curso basico/style.css",
+		"/C/Users/rolon/Desktop/cursobasico/index.html",
+		"/C/Users/rolon/Desktop/cursobasico/style.css",
+		"/C/Users/rolon/Desktop/archivos ricardo/mi primer sitio web/MI PRIMERA WEB.html",
+		"/C/Users/rolon/Desktop/archivos ricardo/mi primer sitio web/MI PORTFOLIO.html",
+		"/C/Users/rolon/Desktop/archivos ricardo/mi primer sitio web/mi segunda web.html",
+		"/C/Users/rolon/Desktop/archivos ricardo/mi primer sitio web/pagina de prueba.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "productos.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
