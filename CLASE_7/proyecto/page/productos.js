@@ -3,7 +3,7 @@ const categoriaFiltrado = document.getElementById("categoryFilter");
 
 let bikes = [];
 
-fetch("./data/bike.json")
+fetch("../data/bike.json")
   .then((res) => {
     if (!res.ok) {
       throw new Error("Network response was not ok " + res.statusText);
@@ -36,7 +36,7 @@ fetch("./data/bike.json")
               <p class="card-text text-center">${bike.descripciongeneral}</p>
               <p class="card-text text-center">${bike.precio}</p>
               <div class="card-footer text-center">
-                <a href="#" class="btn btn-primary">Consulta</a>
+                <a href="../page/detalle.html?id=${bike.id}" class="btn btn-primary">Ver más</a>
               </div>
             </div>
           </div>

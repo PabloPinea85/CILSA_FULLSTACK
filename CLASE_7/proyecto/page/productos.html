@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Productos</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Tienda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="productos.html">Tienda</a>
+              <a class="nav-link" href="../page/home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contactos</a>
+              <a class="nav-link" href="../page/contacto.html">Contactos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true"></a>
@@ -45,9 +45,20 @@
         </div>
       </div>
     </nav>
-
-    <!-- siga aqui su codigo    -->
-
+    <!-- Filtros -->
+    <select id="categoryFilter" class="form-control mt-5">
+      <option value="all">All</option>
+      <option value="Mountain">Mountain</option>
+      <option value="Road">Road</option>
+      <option value="City">City</option>
+      <option value="BMX">BMX</option>
+    </select>
+    <!-- Card -->
+    <div class="container mt-5">
+      <div class="row" id="productos">
+        <!-- Las tarjetas se insertarán aquí -->
+      </div>
+    </div>
     <!-- Footer -->
     <div class="container-fluid bg-dark p-5">
       <div class="row">
@@ -61,6 +72,7 @@
       </div>
     </div>
 
+    <script src="./productos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
