@@ -1,0 +1,26 @@
+.category-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animaciones suaves */
+}
+
+.category-button img {
+    width: 100px; /* Tamaño de la imagen */
+    height: auto; /* Mantener la proporción */
+    object-fit: cover; /* Asegurar que la imagen se ajuste al tamaño */
+    border-radius: 50%; /* Bordes redondeados para la imagen */
+}
+
+.category-button span {
+    font-size: 1.2rem; /* Tamaño del texto */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.category-button:hover {
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añadir sombra */
+}

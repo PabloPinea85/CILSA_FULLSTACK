@@ -1,0 +1,149 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333333; /* Letras negras */
+    background-color: #f8f9fa; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #e9ecef; /* Fondo navbar */
+    border-bottom: 2px solid #6f42c1; /* Borde morado */
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #333333 !important; /* Color de texto en el navbar */
+  }
+  
+  .nav-link:hover {
+    color: #6f42c1 !important; /* Color de hover en los links del navbar */
+  }
+  
+  /* Títulos de las páginas */
+  .page-title {
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #6f42c1;
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5a359c;
+    border-color: #5a359c;
+  }
+  
+  /* Formulario de contacto */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+  }
+  
+  /* Footer */
+  .bg-dark {
+    background-color: #343a40 !important;
+    color: #ffffff;
+  }
+  
+  .bg-dark a {
+    color: #6f42c1;
+  }
+  
+  .bg-dark a:hover {
+    color: #ffffff;
+  }
+  
+  /* Tarjetas de producto */
+  .card {
+    border: 1px solid #6f42c1;
+  }
+  
+  .card-title {
+    color: #6f42c1;
+  }
+  
+  .card-text {
+    color: #333333;
+  }
+  
+  /* Ajustes de contenedor */
+  .container,
+  .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Estilo para categorías y filtros */
+  #categoryFilter {
+    border-color: #6f42c1;
+  }
+  
+  #categoryFilter:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+  }
+  
+  /* Ajustes específicos de cada página */
+  #productos .card,
+  #detalle .card {
+    margin-bottom: 30px;
+  }
+  
+  #productos .card img,
+  #detalle .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #productos .card-body,
+  #detalle .card-body {
+    padding: 20px;
+  }
+  
+  /* Estilo de respuesta para formulario de contacto */
+  #responseMessage {
+    color: #6f42c1;
+    font-weight: bold;
+  }
+  
+  /* Media Queries para diferentes dispositivos */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  
+    .page-title {
+      padding: 2rem 1rem;
+    }
+  
+    .card {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  
+    .page-title {
+      padding: 1.5rem 1rem;
+    }
+  }
+  
