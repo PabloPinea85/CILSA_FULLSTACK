@@ -6,6 +6,14 @@ body {
     margin: 0;
     padding: 0;
   }
+
+.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+
+
   
   /* Navbar */
   .navbar {
