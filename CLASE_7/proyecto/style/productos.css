@@ -1,5 +1,8 @@
+
 /* Agrega animaciones y estilos personalizados */
 .card {
+    background-color: var(--background-color);
+    color: var(--text-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -24,4 +27,8 @@
   .card:hover .card-img-top {
     transform: scale(1.1); /* Efecto de zoom en la imagen */
   }
-  
+
+.form-control {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

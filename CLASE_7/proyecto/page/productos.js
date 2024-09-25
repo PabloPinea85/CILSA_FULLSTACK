@@ -31,9 +31,9 @@ function mostrarBikes(bikes) {
         <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden transform-scale hover-shadow">
           <img src="${bike.imagen}" class="card-img-top" alt="${bike.biciicleta}" />
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-center">${bike.marca}</h5>
+            <h5 class="mt-auto card-title text-center">${bike.marca}</h5>
             <p class="card-text text-center">${bike.biciicleta}</p>
-            <div class="mt-auto text-center">
+            <div class="text-center">
               <a href="../page/detalle.html?id=${bike.id}" class="btn btn-primary">Ver más</a>
             </div>
           </div>
