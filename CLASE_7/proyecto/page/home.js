@@ -31,6 +31,7 @@ btn.textContent = darkModePreference ? '⭐️' : '🌙';
  // Escuchar el clic del botón para alternar el modo oscuro
 document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode); 
 
+// Botones de categorias que llevan al selector en pagina de tienda
 
 
 document.getElementById("category-all").addEventListener("click", function() {
