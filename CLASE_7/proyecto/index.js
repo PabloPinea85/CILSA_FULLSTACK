@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const { Pool } = require('pg');
 
@@ -17,8 +18,13 @@ const pool = new Pool({
 // Middleware para procesar datos del formulario
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Servir archivos estáticos (tu formulario HTML)
-app.use(express.static('public'));
+// Middleware para servir archivos estáticos desde la carpeta 'public'
+app.use(express.static(path.join('../proyecto')));
+
+// Ruta para la página principal o cualquier HTML
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'page/home.html')); // Cambia a la ruta de tu HTML
+});
 
 // Ruta POST para recibir los datos del formulario
 app.post('/submit-form', async (req, res) => {
