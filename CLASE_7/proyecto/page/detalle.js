@@ -26,13 +26,13 @@ function mostrarDetalle(id) {
   const bike = bikes.find((bike) => bike.id == id);
   if (bike) {
     const detalleHTML = `
-        <div class="container-fluid mb-4">
-          <div class="card w-100 shadow-sm border-0 rounded-3 overflow-hidden transform-scale hover-shadow">
+        <div class="container-fluid mb-4 card-container">
+          <div class="w-100">
             <div class="row no-gutters">
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-6 img-container">
                 <img src="${bike.imagen}" class="img-fluid rounded-start w-100 transform-scale hover-zoom" alt="${bike.biciicleta}" />
               </div>
-              <div class="col-12 col-md-8 d-flex flex-column">
+              <div class="col-12 col-md-6 d-flex flex-column">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-center">${bike.marca}</h5>
                   <p class="card-text text-center">${bike.biciicleta}</p>

@@ -1,53 +1,81 @@
 /* Animación y estilo para tarjetas de detalle */
 .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.card-container{
+  border-radius: 100px;
+}
+
+.card-title {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.text-body-secondary{
+  font-size: 20px; 
+}
+
+.card:hover {
   
-  .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+  transition: transform 0.3s ease;
+  margin: auto 0;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.img-container{
+  display: flex;
+  margin: auto;
+}
+
+.btn-primary {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
   
-  .img-fluid {
-    transition: transform 0.3s ease;
-  }
-  
-  .img-fluid:hover {
-    transform: scale(1.05);
-  }
-  
-  .btn-primary {
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3; /* Cambia el color al pasar el ratón */
-    transform: scale(1.05);
-  }
-  
-  /* Clases personalizadas para escalado */
-  .transform-scale {
-    transition: transform 0.3s ease;
-  }
-  
-  .transform-scale:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Hover effects */
-  .hover-shadow {
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .hover-shadow:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .hover-zoom {
-    transition: transform 0.3s ease;
-  }
-  
-  .hover-zoom:hover {
-    transform: scale(1.1);
-  }
-  
+.btn-primary:hover {  background-color: #0056b3; /* Cambia el color al pasar el ratón */
+  transform: scale(1.05);
+}
+
+/* Clases personalizadas para escalado */
+.transform-scale {
+  transition: transform 0.3s ease;
+}
+
+.transform-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Hover effects */
+.hover-shadow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}
+
+.target-content{
+  margin-top: 150px;
+}
