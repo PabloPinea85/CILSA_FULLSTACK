@@ -48,3 +48,22 @@ const port = 3000;
 app.listen(port, () => {
     console.log(`Servidor ejecutándose en http://localhost:${port}`);
 });
+
+
+
+
+
+
+// Ruta para obtener las consultas guardadas en la base de datos
+app.get('/consultas', async (req, res) => {
+    try {
+        // Realizar la consulta a la base de datos
+        const result = await pool.query('SELECT * FROM contact_form');
+
+        // Enviar los datos como respuesta en formato JSON
+        res.json(result.rows); // `rows` contiene todas las filas de la consulta
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ success: false, message: 'Error al obtener las consultas' });
+    }
+});

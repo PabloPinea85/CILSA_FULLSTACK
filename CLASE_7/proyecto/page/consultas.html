@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas Guardadas</title>
+    <link rel="stylesheet" href="/style/general.css">
+</head>
+<body>
+    <h1>Consultas Recibidas</h1>
+    <table id="consultas-table" border="1" class="table-consultas">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Asunto</th>
+                <th>Mensaje</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+    </table>
+
+    <script>
+        // hacee una solicitud al servidor para obtener las consultas
+        async function obtenerConsultas() {
+            try {
+                const response = await fetch('/consultas'); // llama a la ruta del servido
+                const consultas = await response.json();
+
+                // selecciona el cuerpo de la tabla
+                const tablaCuerpo = document.querySelector('#consultas-table tbody');
+
+                // limpiar el contenido previo
+                tablaCuerpo.innerHTML = '';
+
+                // Agregar cada consulta a la tabla
+                consultas.forEach(consulta => {
+                    const fila = document.createElement('tr');
+                    fila.innerHTML = `
+                        <td>${consulta.name}</td>
+                        <td>${consulta.email}</td>
+                        <td>${consulta.subject}</td>
+                        <td>${consulta.message}</td>
+                    `;
+                    tablaCuerpo.appendChild(fila);
+                });
+            } catch (error) {
+                console.error('Error al obtener las consultas:', error);
+            }
+        }
+
+        // carga las consultas al cargar la páginas
+        window.onload = obtenerConsultas;
+    </script>
+</body>
+</html>
