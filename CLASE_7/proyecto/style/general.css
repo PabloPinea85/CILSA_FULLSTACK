@@ -250,3 +250,29 @@ body {
 .new-form{
   margin-top: 150px;
 }
+
+
+
+.content-consultas {
+  width: 50vw;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.consultas-title {
+  font-family: sans-serif;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.table-content {
+  width: 50vw;
+  font-size: 25px;
+  border: solid 3px #6f42c1;
+}
+
+.celdas-table {
+  border-bottom: solid 3px #6f42c1;
+}
