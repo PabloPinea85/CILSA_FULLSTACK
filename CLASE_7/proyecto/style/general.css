@@ -7,6 +7,8 @@
   --contact-img: url(../img/contact-black.png);
 }
 
+
+
 .dark-mode {
   --background-color: #121212;
   --text-color: #eeeeee;
@@ -15,6 +17,7 @@
   --home-img: url(../img/home-white.png);
   --contact-img: url(../img/contact-white.png);
 }
+
 
 /* Estilo general */
 body {

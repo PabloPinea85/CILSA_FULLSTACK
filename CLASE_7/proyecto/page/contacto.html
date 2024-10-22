@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="name-page" href="home.html"></a>
         <button
@@ -72,21 +72,31 @@
       </form>
       <div id="responseMessage" class="mt-4"></div>
     </div> -->
+
+
     <div class="container mb-5">
       <form class="contact-formulario" id="contactForm" method="POST" action="/submit-form">
-        <label for="name" class="form-label">Name:</label>
-        <input type="text" id="name" name="name" class="form-control" required><br>
-        
-        <label for="email" class="form-label">Email:</label>
-        <input type="email" id="email" name="email" class="form-control" required><br>
-        
-        <label for="subject" class="form-label">Subject:</label>
-        <input type="text" id="subject" name="subject" class="form-control" required><br>
-        
-        <label for="message" class="form-label">Message:</label>
-        <textarea id="message" name="message" class="form-control" required></textarea><br>
-        
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+          </div>
+          <div class="col-md-12 mb-3">
+            <label for="subject" class="form-label">Asunto</label>
+            <input type="text" id="subject" name="subject" class="form-control" required>
+          </div>
+          <div class="col-md-12 mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
       </form>
     </div>
 
