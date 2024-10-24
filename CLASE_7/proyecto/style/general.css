@@ -19,6 +19,7 @@
 }
 
 
+
 /* Estilo general */
 body {
     font-family: 'Arial', sans-serif;
@@ -40,7 +41,6 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  border: 0;
   margin: 5px 0 5px 25px;
   padding: 0;
   text-align: center;
@@ -146,7 +146,7 @@ body {
   /* Ajustes de contenedor */
   .container,
   .container-fluid {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 15px;
     background-color: var(--background-color) !important;
@@ -278,4 +278,286 @@ body {
 
 .celdas-table {
   border-bottom: solid 3px #6f42c1;
+}
+
+
+/* home detalles nuevos */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 0.5px solid var(--text-color);
+  box-shadow: 0 0 10px var(--text-color);
+  background-color: blueviolet;
+  color: white;
+
+}
+
+button:hover{
+  background-color: rgb(101,33,165)
+}
+
+
+.color-acento{
+  color: blueviolet;
+}
+
+
+#hero{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+  padding: 5vh;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+hero-container {
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+#hero button{
+  font-size: 1.75em;
+  margin-top:5vh;
+}
+
+#somos-proya{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/background-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#somos-proya .texto{
+  height: 35vh;
+  margin: 5vh;
+}
+
+
+#somos-proya .container{
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#nuestros-programas{
+  background-color: #111;
+  color: white;
+  text-align: center;
+
+}
+
+#nuestros-programas .container{
+  padding: 100px 0;
+}
+
+#nuestros-programas h2{
+  margin-top: 0;
+  font-size: 3.2em;
+}
+
+#nuestros-programas p{
+  display: none;
+}
+
+#nuestros-programas .carta{
+  background-position: center center;
+  background-size: cover;
+  width: 40vh;
+  height: 55vh;
+  padding: 50px 0;
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carta:first-child{
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/client-attention.jpg");
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/background-6.jpg");
+}
+
+.carta:nth-child(3){
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/team.jpg");
+}
+
+#caracteristicas .container{
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#caracteristicas li{
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+#final{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  height: 100vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#final h2{
+  font-size: 9vw;
+}
+
+#final button{
+  font-size: 5vw;
+}
+
+@media (min-width:720px){
+  header{
+      position: fixed;
+      width: 100%;
+  }
+
+  header .container{
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  header nav{
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 0px;
+  }
+  
+  #somos-proya h2{
+      margin-top: 0;
+  }
+
+  #somos-proya .container{
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+  }
+
+  #somos-proya .texto{
+      width: 50%;
+      max-width: 600px;
+      text-align: end;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1.5em;
+  }
+
+
+  #nuestros-programas .programas{
+      display: flex;
+      justify-content: center;
+  }
+
+  #nuestros-programas p{
+      display: block;
+      margin-bottom: 30px;
+  }
+
+  #nuestros-programas .carta{
+      padding: 20px;
+  }
+
+  #nuestros-programas h3{
+      margin-top: 0;
+  }
+
+  #caracteristicas{
+      background-image: url("media/background-2.jpeg");
+      background-repeat: no-repeat;
+      background-size: 500px 400px;
+      background-position: calc(100vw - 500px) 120px;
+  }
+
+  #caracteristicas .container{
+      text-align: initial;
+  }
+  
+  #caracteristicas ul{
+      margin-left: 50px;
+  }
+
+  #final h2{
+      font-size: 5em;
+  }
+  #final button{
+      font-size: 2em;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  #caracteristicas{
+      background-position-x: calc(100vw - 800px);
+  }
 }

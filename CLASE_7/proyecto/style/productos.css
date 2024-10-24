@@ -1,11 +1,13 @@
 
 /* Agrega animaciones y estilos personalizados */
-.card {
+  .card {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
+
+
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px var(--background-color);
@@ -22,6 +24,10 @@
   
   .card-img-top {
     transition: transform 0.3s ease;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
   
   .card:hover .card-img-top {
