@@ -49,10 +49,7 @@ app.listen(port, () => {
     console.log(`Servidor ejecutándose en http://localhost:${port}`);
 });
 
-
-
-
-
+// ---------------------------------------------------------------
 
 // Ruta para obtener las consultas guardadas en la base de datos
 app.get('/consultas', async (req, res) => {
@@ -67,3 +64,46 @@ app.get('/consultas', async (req, res) => {
         res.status(500).json({ success: false, message: 'Error al obtener las consultas' });
     }
 });
+
+app.put('/consultas/:id/estado', async (req, res) => {
+    const consultaId = req.params.id;
+    const { estado } = req.body;  // obtiene el nuevo estado desde la solicitud
+
+    try {
+        const result = await pool.query(
+            'UPDATE contact_form SET estado = $1 WHERE id = $2',
+            [estado, consultaId]
+        );
+        
+        if (result.rowCount > 0) {
+            res.status(200).send('Estado actualizado correctamente');
+        } else {
+            res.status(404).send('Consulta no encontrada');
+        }
+    } catch (error) {
+        console.error('Error al actualizar el estado:', error);
+        res.status(500).send('Error al actualizar el estado');
+    }
+});
+
+
+
+
+
+app.delete('/consultas/:id', async (req, res) => {
+    const consultaId = req.params.id;
+    console.log('ID recibido para eliminar:', consultaId); // Para ver si se recibe correctamente
+    try {
+        const result = await pool.query('DELETE FROM contact_form WHERE id = $1', [consultaId]);
+        
+        if (result.rowCount > 0) {
+            res.status(200).send('Consulta eliminada');
+        } else {
+            res.status(404).send('Consulta no encontrada');
+        }
+    } catch (error) {
+        console.error('Error al eliminar la consulta:', error);
+        res.status(500).send('Error al eliminar la consulta');
+    }
+});
+

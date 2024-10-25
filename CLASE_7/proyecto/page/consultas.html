@@ -52,6 +52,7 @@
                     <th>Email</th>
                     <th>Asunto</th>
                     <th>Mensaje</th>
+                    <th>Estado</th>
                 </tr>
             </thead>
             <tbody>
@@ -61,37 +62,93 @@
     </div>
 
     <script>
-        // hacee una solicitud al servidor para obtener las consultas
-        async function obtenerConsultas() {
-            try {
-                const response = await fetch('/consultas'); // llama a la ruta del servido
-                const consultas = await response.json();
+      // hace una solicitud al servidor para obtener las consultas
+      async function obtenerConsultas() {
+          try {
+              const response = await fetch('/consultas'); // llama a la ruta del servidor
+              const consultas = await response.json();
+  
+              // selecciona el cuerpo de la tabla
+              const tablaCuerpo = document.querySelector('#consultas-table tbody');
+  
+              // limpiar el contenido previo
+              tablaCuerpo.innerHTML = '';
+  
+              // Agregar cada consulta a la tabla
+              consultas.forEach(consulta => {
+                const fila = document.createElement('tr');
+                fila.innerHTML = `
+                    <td class="celdas-table">${consulta.name}</td>
+                    <td class="celdas-table">${consulta.email}</td>
+                    <td class="celdas-table">${consulta.subject}</td>
+                    <td class="celdas-table">${consulta.message}</td>
+                    <td class="celdas-table">
+                        <select onchange="actualizarEstado(${consulta.id}, this.value)">
+                            <option value="Pendientes" ${consulta.estado === 'Pendientes' ? 'selected' : ''}>Pendientes</option>
+                            <option value="En proceso" ${consulta.estado === 'En proceso' ? 'selected' : ''}>En proceso</option>
+                            <option value="Completado" ${consulta.estado === 'Completado' ? 'selected' : ''}>Completado</option>
+                        </select>
+                    </td>
+                    <td class="celdas-table">
+                        <button onclick="eliminarConsulta(${consulta.id})">Eliminar</button>
+                    </td>
+                `;
+                tablaCuerpo.appendChild(fila);
+              });
 
-                // selecciona el cuerpo de la tabla
-                const tablaCuerpo = document.querySelector('#consultas-table tbody');
+          } catch (error) {
+              console.error('Error al obtener las consultas:', error);
+          }
+      }
 
-                // limpiar el contenido previo
-                tablaCuerpo.innerHTML = '';
+      // función para actualizar el estado de la consulta
+    async function actualizarEstado(id, nuevoEstado) {
+      console.log('Estado seleccionado:', nuevoEstado); // Para verificar el valor seleccionado
+      console.log('ID de la consulta:', id); // Para verificar que el ID se pase correctamente
 
-                // Agregar cada consulta a la tabla
-                consultas.forEach(consulta => {
-                    const fila = document.createElement('tr');
-                    fila.innerHTML = `
-                        <td class="celdas-table">${consulta.name}</td>
-                        <td class="celdas-table">${consulta.email}</td>
-                        <td class="celdas-table">${consulta.subject}</td>
-                        <td class="celdas-table">${consulta.message}</td>
-                    `;
-                    tablaCuerpo.appendChild(fila);
-                });
-            } catch (error) {
-                console.error('Error al obtener las consultas:', error);
+        try {
+            const response = await fetch(`/consultas/${id}/estado`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ estado: nuevoEstado })
+            });
+
+            if (!response.ok) {
+                throw new Error('Error al actualizar el estado');
             }
+        } catch (error) {
+            console.error('Error al actualizar el estado:', error);
         }
+    }
 
-        // carga las consultas al cargar la páginas
-        window.onload = obtenerConsultas;
-    </script>
+  
+      // función para eliminar una consulta
+      async function eliminarConsulta(id) {
+    console.log('ID de la consulta a eliminar:', id); // Añade este log para ver el ID en la consola
+    if (confirm('¿Estás seguro de que deseas eliminar esta consulta?')) {
+        try {
+            const response = await fetch(`/consultas/${id}`, {
+                method: 'DELETE',
+            });
+
+            if (response.ok) {
+                alert('Consulta eliminada con éxito');
+                obtenerConsultas(); // Recargar la tabla después de eliminar
+            } else {
+                alert('Hubo un problema al eliminar la consulta');
+            }
+        } catch (error) {
+            console.error('Error al eliminar la consulta:', error);
+        }
+    }
+}
+  
+      // carga las consultas al cargar la página
+      window.onload = obtenerConsultas;
+  </script>
+  
     <script src="home.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
