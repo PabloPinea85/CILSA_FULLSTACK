@@ -6,9 +6,6 @@
   font-size: 30px;
 }
 
-.card-container{
-  border-radius: 100px;
-}
 
 .card-title {
   font-family: sans-serif;
@@ -19,9 +16,6 @@
   font-size: 20px;
 }
 
-.text-body-secondary{
-  font-size: 20px; 
-}
 
 .card:hover {
   
